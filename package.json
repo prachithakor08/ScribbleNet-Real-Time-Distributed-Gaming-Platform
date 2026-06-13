@@ -1,0 +1,20 @@
+{
+  "name": "scribbly-multiplayer",
+  "version": "1.0.0",
+  "description": "Real-time multiplayer drawing game - Distributed Systems Mini Project",
+  "main": "server/index.js",
+  "scripts": {
+    "start": "node server/index.js",
+    "dev": "nodemon server/index.js"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.20.0",
+    "express": "^4.18.2",
+    "socket.io": "^4.8.3",
+    "uuid": "^9.0.0",
+    "ws": "^8.16.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.2"
+  }
+}
