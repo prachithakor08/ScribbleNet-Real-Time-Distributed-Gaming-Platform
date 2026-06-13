@@ -215,7 +215,24 @@ https://xxxx.ngrok-free.app
 Share this URL with other players so they can join the game from different networks.
 
 ---
+# 📸 System Snapshots
 
+The following screenshots showcase the major interfaces and functionalities of the ScribbleNet platform.
+
+| Home Screen | Lobby Screen |
+|------------|------------|
+| *User registration, avatar selection, and room creation/join interface.* | *Room code sharing, player list, and game settings before starting the game.* |
+| ![](screenshots/basic_dashboard.png) | ![](screenshots/code_generation.png) |
+
+| Word Selection Screen | Gameplay Screen |
+|----------------------|----------------|
+| *Word selection interface displayed to the current drawing player.* | *Real-time collaborative drawing canvas with live chat, timer, and score updates.* |
+| ![](screenshots/choose_Words.png) | ![](screenshots/guessing.png) |
+
+| Leaderboard Screen |
+|-------------------|
+| *Final rankings and scores displayed after game completion.* |
+| ![](screenshots/scoreboard.png) |
 ## Learning Outcomes
 
 * Real-time communication using WebSockets
